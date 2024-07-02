@@ -1,0 +1,41 @@
+Step1. ローカルリポジトリ「git_challenge」を作成する
+81906@LAPTOP-25K0H0AR MINGW64 ~/git_tutorial (main)
+$ cd
+
+81906@LAPTOP-25K0H0AR MINGW64 ~
+$ mkdir git_challenge
+
+81906@LAPTOP-25K0H0AR MINGW64 ~
+$ cd git_challenge
+
+81906@LAPTOP-25K0H0AR MINGW64 ~/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/81906/git_challenge/.git/
+
+Step2. テキストファイル「hello_world.txt」を作成する
+81906@LAPTOP-25K0H0AR MINGW64 ~/git_challenge (main)
+$ echo "Hello,world!" >hello_world.txt
+
+81906@LAPTOP-25K0H0AR MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt
+
+
+81906@LAPTOP-25K0H0AR MINGW64 ~/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) e8df9b8] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+visual styduo codeでhello_world.txtを開き,
+Hello,world!
+こんにちは、世界！
+
+
+81906@LAPTOP-25K0H0AR MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt
+
+81906@LAPTOP-25K0H0AR MINGW64 ~/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main c954f1a] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
