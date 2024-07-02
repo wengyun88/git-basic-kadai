@@ -35,7 +35,16 @@ Hello,world!
 $ git add hello_world.txt
 
 81906@LAPTOP-25K0H0AR MINGW64 ~/git_challenge (main)
-$ git commit -m "日本語訳を追記"
-[main c954f1a] 日本語訳を追記
- 1 file changed, 1 insertion(+)
+$ git log
+commit 12c2821b4cdc70fba3f6ed551ad32d817388cba8 (HEAD -> main)
+Author: wengyun88 <nakazawa.hina@gmail.com>
+Date:   Tue Jul 2 18:46:01 2024 +0900
+
+    日本語訳を追記
+
+commit 20d2e9357b71c248e77c7a24f398b59cc47f33da
+Author: wengyun88 <nakazawa.hina@gmail.com>
+Date:   Tue Jul 2 18:44:20 2024 +0900
+
+    hello_world.txtを追加
 
